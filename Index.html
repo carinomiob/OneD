@@ -1,0 +1,265 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Direction|Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="https://www.dropbox.com/s/wte497u69q5i0uz/1d2.png?raw=1" type = "image/x-icon">
+</head>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+.text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+h2 {text-align: center;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+{
+  box-sizing: border-box;
+}
+.header{
+height: "100vh";
+width: "100%";
+padding: 0 8%;
+background: #080008;
+position: relative;
+}
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+height: 25%;
+width: 100%;
+}
+.nav-links{
+padding: 20px 0;
+}
+.nav-links li{
+display: inline-block;
+margin: 0 15px;
+}
+.nav-links li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 0;
+position: relative;
+}
+.nav-links li a::after{
+content: '';
+background: #ff3d00;
+width: 0;
+height: 2px;
+position: absolute;
+bottom: 0;
+left: 0;
+transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+width: 100%;
+}
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 50%;
+  height: 100%;
+}
+
+video {
+  width: 650px;
+  height: 500px;
+  margin-top: 21.875%;
+}
+*{margin:0; padding: 0;
+}
+.centerdiv{
+height= 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+a{
+text-align: center;
+margin: 25px;
+line-height: 110px;
+}
+a i{
+transition: all 0.3s linear;
+}
+a:hover i{
+transform: scale(1.4);
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-youtube{
+color: #e84118;
+}
+.fa-twitter{
+color: #0097e6;
+}
+.fa-spotify{
+color: #1DB954;
+}
+.footer{
+height: "100vh";
+width: "100%";
+padding: 0 8%;
+background: black;
+position: relative;
+}
+.logo1{
+height: 30%;
+width: 100%;
+}
+</style>
+<a name="second"></a>
+<div class="header">
+<nav>
+<img src="https://www.dropbox.com/s/uh8bktzhwpeznxj/1d3.jpg?raw=1" class="logo">
+<ul class="nav-links">
+<font size="5" face="Times New Roman, sans-serif">
+<li><a href="">Music</a></li>
+<li><a href="">Tour</a></li>
+<li><a href="">Journal</a></li>
+<li><a href="">Shop</a></li>
+<li><a href="">Newsletter</a></li>
+<li><a href="#first">Socials</a></li>
+</font>
+</ul>
+</nav>
+</div>
+<body bgcolor="#ab070f">
+<br>
+<br>
+<div class="container">
+<img src="https://www.dropbox.com/s/ynxyksq488sujx2/1d.jpg?raw=1" height="80%" width="40%">
+<br>
+<div class="text">
+<font color="white" face="Trebuchet MS, Helvetica, sans-serif">
+<h4> About </h4>
+<p> One Direction, often shortened to 1D, are an English-Irish pop boy band formed in London, England in 2010. 
+The group are composed of Niall Horan, Liam Payne, Harry Styles and Louis Tomlinson; Zayn Malik left the band in March 2015.<br>
+Propelled to global success by social media, One Direction's five albums, Up All Night (2011), Take Me Home (2012), Midnight Memories (2013), Four (2014), and Made in the A.M. (2015),
+topped charts in several countries, and generated hit singles including "What Makes You Beautiful" (their first number one on the UK Singles Chart, and the highest debut for a British act on the US Billboard Hot 100 since 1998),
+ "Live While We're Young", "Best Song Ever", "Story of My Life" and "Drag Me Down". After the release of Four, One Direction became the first band in the US Billboard 200 history to have their first four albums debut at number one.
+ Their third album, Midnight Memories, was the best-selling album worldwide of 2013. </p>
+</font>
+</div>
+</div>
+<br>
+<br>
+<div class="A1">
+<div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+    <div class="buttons">
+      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+  </div>
+  <br>
+  <br>
+  </div>
+ <main class='main'>
+  <section class='left section'>
+    <video poster="https://www.dropbox.com/s/8qis1mdyqvfk7bg/1dh.jpg?raw=1" 
+	src='https://www.dropbox.com/s/c72kcgeejouj1s9/One%20Direction%20-%20History%20%28Official%20Video%29.mp4?raw=1' controls></video>
+  </section>
+  <section class='right section'>
+    <video poster="https://www.dropbox.com/s/un2aru0cem6dn8n/1dh2.jpg?raw=1" 
+	src='https://www.dropbox.com/s/j5hd7lx7xbvqtdr/One%20Direction%20-%2010%20Years%20of%20One%20Direction.mp4?raw=1' controls></video>
+  </section>
+</main>
+		<br>
+		<br>
+		<br>
+		<br>
+<font color="White" face="Trebuchet MS, Helvetica, sans-serif" text-align="center">
+<h2> Members </h2>
+<a href="hs.html" target="_blank">
+<p style="float: left; text-align: center; font-size: 15pt; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="https://www.dropbox.com/s/lc1bs69073jj800/hs.jpg?raw=1" style="height="100%" width="100%"></a>
+<br>Harry Styles</p>
+<a href="lt.html" target="_blank">
+<p style="float: left; text-align: center; font-size: 15pt; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="https://www.dropbox.com/s/hgula7pmi9br4gd/lt.jpg?raw=1" style="height="100%" width="100%"></a>
+<br>Louis Tomlinson</p>
+<a href="lp.html" target="_blank">
+<p style="float: left; text-align: center; font-size: 15pt; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="https://www.dropbox.com/s/l55wa30xva0jngr/lp.jpg?raw=1" style="height="100%" width="100%"></a>
+<br>Liam Payne</p>
+<a href="nh.html" target="_blank">
+<p style="float: left; text-align: center; font-size: 15pt; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="https://www.dropbox.com/s/yjcncghs9fzbfl2/nh.jpg?raw=1" style="height="100%" width="100%"></a>
+<br>Niall Horan</p>
+<a href="zm.html" target="_blank">
+<p style="float: left; text-align: center; font-size: 15pt; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="https://www.dropbox.com/s/ql53uzzvcqxhe9v/zm.jpg?raw=1" style="height="50%" width="75%"></a>
+<br>Zayn Malik</p>
+<p style="clear: both;">
+<br>
+ <br>
+<font size="5.5pt" face="Trebuchet MS, Helvetica, sans-serif">
+<div class="footer">
+<p style="text-align:center;"><a href="#second">Back To Top</a></p>
+<nav>
+<div class="centerdiv">
+<a href="https://www.instagram.com/onedirection/" target="_blank">
+<i class="fa fa-3x fa-instagram"></i>
+</a>
+<a href="https://www.facebook.com/onedirection/"target="_blank">
+<i class="fa fa-3x fa-facebook"></i>
+</a>
+<a href="https://twitter.com/onedirection" target="_blank">
+<i class="fa fa-3x fa-twitter"></i>
+</a>
+<a href=" https://1D.lnk.to/Spotify" target="_blank">
+<i class="fa fa-3x fa-spotify"></i>
+</a>
+<a href="https://smarturl.it/OneDirection_YTMusic" target="_blank">
+<i class="fa fa-3x fa-youtube"></i>
+</a>
+<a name="first"></a>
+</nav>
+</div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liam Payne|One Direction</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylelp.css">
+ <link rel="icon" href="https://www.dropbox.com/s/6zvl3tnxnznxs3n/lp1.jpg?raw=1" type = "image/x-icon">
+</head>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+.header{
+height: "100vh";
+width: "100%";
+padding: 0 5%;
+background: #ffed4d;
+position: relative;
+}
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav-links{
+padding: 20px 0;
+}
+.nav-links li{
+display: inline-block;
+margin: 0 15px;
+}
+.nav-links li a{
+text-decoration: none;
+color: #171515;
+padding: 5px 0;
+position: relative;
+}
+.nav-links li a::after{
+content: '';
+background: #ff3d00;
+width: 0;
+height: 2px;
+position: absolute;
+bottom: 0;
+left: 0;
+transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+width: 100%;
+}
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+	  .text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+	  h2 {text-align: center;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*{margin:0; padding: 0;
+}
+.centerdiv{
+height= 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+a{
+text-align: center;
+margin: 25px;
+line-height: 110px;
+}
+a i{
+transition: all 0.3s linear;
+}
+a:hover i{
+transform: scale(1.4);
+}
+.fa-instagram{
+color: #e84393;
+}
+.fa-youtube{
+color: #e84118;
+}
+.fa-twitter{
+color: #0097e6;
+}
+.fa-spotify{
+color: #1DB954;
+}
+.footer{
+height: "100vh";
+width: "100%";
+padding: 0 8%;
+background: black;
+position: relative;
+}
+.logo1{
+height: 30%;
+width: 100%;
+}
+</style>
+<a name="second"></a>
+<div class="header">
+<nav>
+<font color="#c95b69" size="30%">
+<h1>Liam Payne</h1>
+</font>
+<ul class="nav-links">
+<font size="5" face="Times New Roman, sans-serif">
+<li><a href="">Music</a></li>
+<li><a href="">Tour</a></li>
+<li><a href="">Journal</a></li>
+<li><a href="">Shop</a></li>
+<li><a href="">Newsletter</a></li>
+<li><a href="#first">Socials</a></li>
+</font>
+</ul>
+</nav>
+</div>
+<br>
+<br>
+<div class="container">
+<img src="https://www.dropbox.com/s/6zvl3tnxnznxs3n/lp1.jpg?raw=1" height="80%" width="40%">
+<br>
+<div class="text">
+<font color="c95b69" face="Trebuchet MS, Helvetica, sans-serif">
+<h4> About </h4>
+<p> Liam James Payne (born 29 August 1993) is an English singer. He rose to fame as a member of the boy band One Direction.<br>
+Payne made his debut as a singer in 2008 when he auditioned for the British television series The X Factor. After being eliminated in the competition,
+he auditioned again in 2010 and was put into a group with four other contestants to form One Direction, which went on to become one of the best-selling boy bands of all time.
+After One Direction's hiatus, Payne signed a recording deal with Republic Records in North America.In May 2017, Payne released "Strip That Down" as the lead single from his debut album. 
+It peaked at number three on the UK Singles Chart and number ten on the US Billboard Hot 100, being certified platinum in both countries. His debut album, LP1, was released in December 2019.
+He has sold over 18 million singles in just two years since One Direction and over 3.9 billion career streams in that span. <br>
+</p>
+</font>
+</div>
+</div>
+<br>
+<br>
+<h2>Watch Liam Payne's Latest Single- Sunshine</h2>
+<center>
+    <video width="600px" height="400px" poster="https://www.dropbox.com/s/uv2yyovnpkapbd8/sunshine1.jpg?raw=1" src='https://www.dropbox.com/s/vcqv6luejaww7y6/Sunshine.mp4?raw=1' controls></video>
+ </center>
+ <br>
+ <br>
+
+ <div class="A1">
+<div class="player">
+    <div class="details">
+      <div class="now-playing">PLAYING x OF y</div>
+      <div class="track-art"></div>
+      <div class="track-name">Track Name</div>
+      <div class="track-artist">Track Artist</div>
+    </div>
+    <div class="buttons">
+      <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+      <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+      <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+    </div>
+    <div class="slider_container">
+      <div class="current-time">00:00</div>
+      <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+      <div class="total-duration">00:00</div>
+    </div>
+    <div class="slider_container">
+      <i class="fa fa-volume-down"></i>
+      <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+      <i class="fa fa-volume-up"></i>
+    </div>
+  </div>
+  <br>
+  <br>
+  </div>
+  <br>
+  <br>
+ <div class="footer">
+<p style="text-align:center;"><a href="#second">Back To Top</a></p>
+<nav>
+<div class="centerdiv">
+<a href="http://liamp.co/Instagram" target="_blank">
+<i class="fa fa-3x fa-instagram"></i>
+</a>
+<a href="http://liamp.co/Facebook" target="_blank">
+<i class="fa fa-3x fa-facebook"></i>
+</a>
+<a href="http://liamp.co/Twitter " target="_blank">
+<i class="fa fa-3x fa-twitter"></i>
+</a>
+<a href="http://liamp.co/Spotify" target="_blank">
+<i class="fa fa-3x fa-spotify"></i>
+</a>
+<a href=" http://liamp.co/Official" target="_blank">
+<i class="fa fa-3x fa-youtube"></i>
+</a>
+<a name="first"></a>
+</nav>
+</div>
+</div>
+    <script src="lpmain.js"></script>
+</body>
+</html>
